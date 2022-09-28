@@ -1,3 +1,10 @@
+.exercise {
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+}
+
 .exercise img {
     width: 200px;
     height: 100px;

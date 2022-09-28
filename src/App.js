@@ -1,10 +1,12 @@
 import './App.css';
-import Exercises from './components/Exercises/Exercises';
+import Body from './components/Body/Body';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div>
-      <Exercises></Exercises>
+      <Header></Header>
+      <Body></Body>
     </div>
   );
 }
