@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Push-up",
+        "img": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Lunge",
+        "img": "https://www.verywellfit.com/thmb/anpPWUBC2DKZvS-FHL6RuT5cKOo=/2500x1667/filters:no_upscale():max_bytes(150000):strip_icc()/Verywell-44-2328705-DumbellLunge01-1589-8cd8f2dac4294549b5279f6f91e3eb41.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Burpee",
+        "img": "https://experiencelife.lifetime.life/wp-content/uploads/2021/03/How-to-do-the-perfect-burpee-1280x720.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Squat",
+        "img": "https://www.spotebi.com/wp-content/uploads/2014/10/squat-exercise-illustration.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Plank",
+        "img": "https://www.yogajournal.com/wp-content/uploads/2021/05/25-yoga-journal-2022-C-andrew-clark-BC8I9887_1-2.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Jumping jack",
+        "img": "https://img.freepik.com/premium-vector/jumping-jacks-exercise-woman-workout-fitness-aerobic-exercises_476141-710.jpg?w=2000"
+    }
+]
