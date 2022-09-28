@@ -1,0 +1,9 @@
+.exercise img {
+    width: 200px;
+    height: 100px;
+}
+
+.exercise h4,
+.exercise p {
+    margin: 10px 0;
+}
