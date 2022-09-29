@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './Details.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
@@ -15,10 +15,20 @@ const Details = ({ selectedExercises }) => {
 
     const handleBreakTime = (time) => {
         setBreakTime(time);
+        localStorage.setItem('breakTime', time);
     }
-    useEffect(() => {
-        localStorage.setItem('breakTime', breakTime);
-    }, [breakTime])
+    const storedTime = localStorage.getItem('breakTime');
+
+    let finalBreakTime = 0;
+    if (breakTime === 0) {
+        finalBreakTime = storedTime;
+    }
+    else {
+        finalBreakTime = breakTime;
+    }
+    if (finalBreakTime === null) {
+        finalBreakTime = 0;
+    }
 
     return (
         <div className='details'>
@@ -59,7 +69,7 @@ const Details = ({ selectedExercises }) => {
             </div>
             <div className='break-time'>
                 <p>Break Time</p>
-                <p>{breakTime} seconds</p>
+                <p>{finalBreakTime} seconds</p>
             </div>
             <button className='completed-btn' onClick={notify}>Activity Completed</button>
             <Toaster />
