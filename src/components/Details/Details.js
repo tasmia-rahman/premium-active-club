@@ -26,6 +26,7 @@ const Details = ({ selectedExercises }) => {
     else {
         finalBreakTime = breakTime;
     }
+
     if (finalBreakTime === null) {
         finalBreakTime = 0;
     }
