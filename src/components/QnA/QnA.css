@@ -1,0 +1,12 @@
+.qna-container {
+    padding: 60px;
+}
+
+.qna-container h4 {
+    margin-bottom: 0;
+}
+
+.qna-container p {
+    margin-top: 10px;
+    text-align: justify;
+}

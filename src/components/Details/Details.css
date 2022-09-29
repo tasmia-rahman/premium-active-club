@@ -55,6 +55,11 @@
     cursor: pointer;
 }
 
+.breaks button:hover {
+    background-color: #52BE80;
+    color: white;
+}
+
 .exercise-time,
 .break-time {
     display: flex;
@@ -80,4 +85,8 @@
     padding: 15px;
     color: white;
     cursor: pointer;
+}
+
+.completed-btn:hover {
+    background-color: #5D5FEF;
 }
