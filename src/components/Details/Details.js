@@ -3,7 +3,7 @@ import './Details.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
-const Details = () => {
+const Details = ({ selectedExercises }) => {
     return (
         <div className='details'>
             <div className='my-details'>
@@ -28,6 +28,7 @@ const Details = () => {
                     <h5>Age</h5>
                 </div>
             </div>
+            <h4>Add a break</h4>
         </div>
     );
 };
