@@ -1,11 +1,16 @@
 import React from 'react';
 import './Header.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
     return (
         <div className='header'>
-            <h1>PREMIUM-ACTIVE-CLUB</h1>
-            <p>Select today’s exercise</p>
+            <div className='title'>
+                <FontAwesomeIcon className='icon' icon={faDumbbell} />
+                <h2>PREMIUM-ACTIVE-CLUB</h2>
+            </div>
+            <h4>Select today’s exercise</h4>
         </div>
     );
 };

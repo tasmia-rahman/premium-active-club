@@ -15,9 +15,17 @@
 
 .my-details h4,
 .my-details p,
-.flex h5,
-.flex p {
+.flex h5 {
     margin: 0;
+    padding-left: 10px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location-icon {
     padding-left: 10px;
 }
 
